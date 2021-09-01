@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.gameapp.R
 import com.example.gameapp.databinding.ActivityGameBinding
+import com.example.gameapp.presentation.adapter.GameAdapter
 import com.example.gameapp.presentation.di.Injector
 import com.example.gameapp.presentation.viewmodel.GameViewModel
 import com.example.gameapp.presentation.viewmodel.GameViewModelFactory
