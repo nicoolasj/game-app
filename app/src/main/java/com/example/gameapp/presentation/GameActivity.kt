@@ -1,6 +1,5 @@
 package com.example.gameapp.presentation
 
-import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -13,6 +12,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.gameapp.R
 import com.example.gameapp.databinding.ActivityGameBinding
 import com.example.gameapp.presentation.di.Injector
+import com.example.gameapp.presentation.viewmodel.GameViewModel
+import com.example.gameapp.presentation.viewmodel.GameViewModelFactory
 import javax.inject.Inject
 
 private const val TAG = "GameActivity"
