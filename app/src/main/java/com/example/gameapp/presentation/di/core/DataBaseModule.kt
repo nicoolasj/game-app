@@ -1,8 +1,7 @@
-package com.example.gameapp.presentation.di
+package com.example.gameapp.presentation.di.core
 
 import android.content.Context
 import androidx.room.Room
-import androidx.room.RoomDatabase
 import com.example.gameapp.data.db.GameDao
 import com.example.gameapp.data.db.RawgDatabase
 import dagger.Module

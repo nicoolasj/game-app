@@ -1,4 +1,4 @@
-package com.example.gameapp.presentation.di
+package com.example.gameapp.presentation.di.core
 
 import com.example.gameapp.data.repository.game.datasource.GameCacheDataSource
 import com.example.gameapp.data.repository.game.datasourceImpl.GameCacheDataSourceImpl
