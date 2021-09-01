@@ -1,4 +1,4 @@
-package com.example.gameapp.domain
+package com.example.gameapp.domain.repository
 
 import com.example.gameapp.data.model.game.Game
 import com.example.gameapp.data.model.game.GameList
