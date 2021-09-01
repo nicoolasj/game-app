@@ -1,8 +1,8 @@
-package com.example.gameapp.data.repository.datasourceImpl
+package com.example.gameapp.data.repository.game.datasourceImpl
 
 import com.example.gameapp.data.api.RawgService
 import com.example.gameapp.data.model.game.GameList
-import com.example.gameapp.data.repository.datasource.GameRemoteDataSource
+import com.example.gameapp.data.repository.game.datasource.GameRemoteDataSource
 import retrofit2.Response
 
 class GameRemoteDataSourceImpl(private val rawgService: RawgService, private val key: String) :

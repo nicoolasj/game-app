@@ -1,8 +1,8 @@
-package com.example.gameapp.data.repository.datasourceImpl
+package com.example.gameapp.data.repository.game.datasourceImpl
 
 import com.example.gameapp.data.db.GameDao
 import com.example.gameapp.data.model.game.Game
-import com.example.gameapp.data.repository.datasource.GameLocalDataSource
+import com.example.gameapp.data.repository.game.datasource.GameLocalDataSource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

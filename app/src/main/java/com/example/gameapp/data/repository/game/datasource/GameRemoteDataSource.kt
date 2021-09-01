@@ -1,4 +1,4 @@
-package com.example.gameapp.data.repository.datasource
+package com.example.gameapp.data.repository.game.datasource
 
 import com.example.gameapp.data.model.game.GameList
 import retrofit2.Response

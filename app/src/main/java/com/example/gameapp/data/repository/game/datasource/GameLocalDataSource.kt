@@ -1,4 +1,4 @@
-package com.example.gameapp.data.repository.datasource
+package com.example.gameapp.data.repository.game.datasource
 
 import com.example.gameapp.data.model.game.Game
 
