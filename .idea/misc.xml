@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Nicolas/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_game.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Nicolas/AndroidStudioProjects/GameApp/app/src/main/res/layout/game_item.xml" value="0.22" />
+        <entry key="..\:/Users/Nicolas/AndroidStudioProjects/GameApp/app/src/main/res/menu/update.xml" value="0.22" />
       </map>
     </option>
   </component>
