@@ -1,11 +1,10 @@
-package com.example.gameapp
+package com.example.gameapp.data.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.gameapp.data.model.game.Game
-import com.example.gameapp.data.model.game.GameList
 
 @Dao
 interface GameDao {
