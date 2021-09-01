@@ -1,4 +1,4 @@
-package com.example.gameapp.data
+package com.example.gameapp.data.model
 
 
 import com.google.gson.annotations.SerializedName
