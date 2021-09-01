@@ -1,5 +1,6 @@
 package com.example.gameapp.presentation.di.core
 
+import com.example.gameapp.presentation.di.game.GameSubComponent
 import dagger.Component
 import javax.inject.Singleton
 
@@ -16,4 +17,6 @@ import javax.inject.Singleton
         AppModule::class]
 )
 interface AppComponent {
+
+    fun gameSubComponent(): GameSubComponent.Factory
 }
