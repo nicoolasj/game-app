@@ -1,8 +1,6 @@
 package com.example.gameapp.domain.repository
 
 import com.example.gameapp.data.model.game.Game
-import com.example.gameapp.data.model.game.GameList
-import retrofit2.Response
 
 interface GameRepository {
     suspend fun getGames(): List<Game>

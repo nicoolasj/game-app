@@ -8,7 +8,7 @@ import javax.inject.Singleton
 
 @Module
 class CacheDataSouceModule {
-    
+
     @Singleton
     @Provides
     fun provideGameCacheDataSource(): GameCacheDataSource {

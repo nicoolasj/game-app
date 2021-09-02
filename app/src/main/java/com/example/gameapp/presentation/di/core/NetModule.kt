@@ -24,5 +24,4 @@ class NetModule(private val baseUrl: String) {
     fun provideRawgService(retrofit: Retrofit): RawgService {
         return retrofit.create(RawgService::class.java)
     }
-
 }

@@ -2,10 +2,8 @@ package com.example.gameapp.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
-import androidx.lifecycle.viewModelScope
 import com.example.gameapp.domain.usecase.GetGamesUseCase
 import com.example.gameapp.domain.usecase.UpdateGamesUseCase
-import kotlinx.coroutines.launch
 
 class GameViewModel(
     private val getGamesUseCase: GetGamesUseCase,

@@ -14,7 +14,8 @@ import javax.inject.Singleton
         CacheDataSouceModule::class,
         RepositoryModule::class,
         UseCaseModule::class,
-        AppModule::class]
+        AppModule::class
+    ]
 )
 interface AppComponent {
 

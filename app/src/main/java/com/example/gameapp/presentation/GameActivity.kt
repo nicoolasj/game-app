@@ -1,11 +1,11 @@
 package com.example.gameapp.presentation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -44,11 +44,14 @@ class GameActivity : AppCompatActivity() {
 
     private fun displayGameList() {
         binding.progressBar.visibility = View.VISIBLE
-        gameViewModel.getGames().observe(this, {
-            adapter.setGameList(it)
-            Log.d(TAG, "$it")
-            binding.progressBar.visibility = View.INVISIBLE
-        })
+        gameViewModel.getGames().observe(
+            this,
+            {
+                adapter.setGameList(it)
+                Log.d(TAG, "$it")
+                binding.progressBar.visibility = View.INVISIBLE
+            }
+        )
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -64,9 +67,12 @@ class GameActivity : AppCompatActivity() {
     fun updateGames() {
         binding.progressBar.visibility = View.VISIBLE
         val response = gameViewModel.updateGames()
-        response.observe(this, {
-            adapter.setGameList(it)
-            binding.progressBar.visibility = View.INVISIBLE
-        })
+        response.observe(
+            this,
+            {
+                adapter.setGameList(it)
+                binding.progressBar.visibility = View.INVISIBLE
+            }
+        )
     }
 }

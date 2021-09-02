@@ -5,7 +5,6 @@ import com.example.gameapp.domain.usecase.GetGamesUseCase
 import com.example.gameapp.domain.usecase.UpdateGamesUseCase
 import dagger.Module
 import dagger.Provides
-import javax.inject.Singleton
 
 @Module
 class UseCaseModule {
